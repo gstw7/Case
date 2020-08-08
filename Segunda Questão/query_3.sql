@@ -1,0 +1,3 @@
+SELECT A.ID_PESSOA, A.NU_VENDA, B.DT_REF, C.NM_PESSOA
+FROM f_Vendas A, d_Tempo B, d_Pessoa C
+WHERE  NU_VENDA = '0' AND DT_REF between '2020-03-01' AND '2020-03-31';
