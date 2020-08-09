@@ -84,6 +84,7 @@ target/
 # vim
 *.swp
 *.swo
+.gitignore
 
 # Mypy cache
 .mypy_cache/
